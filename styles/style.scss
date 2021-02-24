@@ -247,6 +247,15 @@ $litegray:#666666;
         }
 
     }
+    h5{
+        font-size: 34px;
+        line-height: 39px;
+        text-align: center;
+
+        /* Text/Title Text */
+
+        color: #333333;
+    }
 }
 .technologybeyond{
     height: 45vh;
@@ -623,3 +632,248 @@ $litegray:#666666;
 .career{
     img{width: 100%;}
 }
+.taj{
+    text-align: justify;
+}
+.Benefits{
+    img{
+     width:50px;
+     height: auto;
+    }
+    h5{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height */
+        color: #000000;
+
+    }
+    p{
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+
+    }
+  
+}
+
+.jobtabs{
+    .nav-link {
+        background-color:transparent;
+        border:none;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        color: #000;
+        outline:none;
+        border-radius: 0!important;
+
+
+    }
+    .nav-pills .nav-link.active{
+        background-color: transparent;
+        border-bottom: 2px solid #CB4C22;
+        color:#CB4C22;
+      
+    }
+    .job-preview{
+        box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.102);
+        padding: 15px;
+        .lineleftjob{
+            border-right: 2px dashed #C4481F;
+            height: 100px;
+        }
+        .APPLY{
+            background-color:#000;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-weight: 500;font-size: 14px;
+            line-height: 16px;
+            padding: 10px;
+
+        }
+        .job-content{
+            a{
+                font-weight: 600;
+                font-size: 16px;line-height: 18px;
+                color: #000000;
+                text-decoration: none;
+
+
+            }
+            p{
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 14px;/* identical to box height */
+                margin-bottom: 0px;
+                color: #000000;
+            }
+            .subdata{
+                font-weight: 500;
+                font-size: 14px;line-height: 16px;
+                /* identical to box height */
+                color: #848282;
+               
+            }
+            b{
+                font-size: 14px;line-height: 16px;
+                color: #CB4C22;
+                margin-left: 8px;
+
+            }
+        }
+    
+    
+    
+    }
+    
+
+}
+@media only screen and (max-width: 992px) {
+    .lineleftjob{
+       
+        height: 0px!important;
+    }
+    .jobtabs .job-preview .APPLY{
+        padding:5px;
+    }
+  
+}
+.contactus{
+    .contactback{
+        background: #393939;
+        padding:10%;
+    }
+    .col-md-5{
+        background-size: cover;
+        background-position: right;
+    }
+    h1{
+        font-weight: bold;font-size: 48px;line-height: 64px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #F8F9FA;
+
+    }
+    p{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #A2A9B0;
+
+    }
+    label{
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #F8F9FA;
+
+    }
+    .form-check-input:checked{
+        background-color: #ED450A;
+        border-color: #441402;
+    
+    }
+    .form-check-input{
+        background-color: #393939;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border: 3px solid rgba(243, 243, 243, 0.76);
+    }
+    .form-check-input:focus {
+        border-color: #ED450A;
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(237, 69, 9, 0.21);
+    }
+    .form-check{
+        .label{
+            color: #8C949D;
+
+        }
+    }
+    .form-control{
+        background: #3B4857;
+        border: 1px solid #393939;
+        box-sizing: border-box;
+        columns: #CFD3D7;
+
+    }
+    button{
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+        background: #ED450A;
+        border-radius: 4px;
+        border:none;
+    }
+    button:hover {
+        color: #ED450A;
+        background: #FFFFFF;
+
+    }
+    
+
+}
+@media only screen and (min-width: 1474px) {
+    .contactus .contactback{
+        padding: 18%;
+
+    }
+}
+.servicescont{
+    padding:10%;
+    h1{
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 150%;
+        color: #666666;
+    }
+    p{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 64px;
+      
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        
+        color: #333333;}
+    label{
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;  
+        color: #666666;
+    }
+    button{
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+        background: #ED450A;
+        border-radius: 4px;
+        border:none;
+    }
+    button:hover {
+        color: #ED450A;
+        background: #FFFFFF;
+        border: 1px dashed;
+
+    }
+    .form-control{
+        background: #FFFFFF;
+        border: 1px solid #CCE9FF;
+        box-sizing: border-box;
+        border-radius: 8px;
+        border-radius: 8px;
+
+    }
+}
+.col-md-6{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+    
