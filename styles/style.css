@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Titillium Web", sans-serif !important;
+}
+
 .header .navigation_bar {
   background: rgba(33, 33, 33, 0.8);
 }
@@ -68,6 +73,14 @@
   margin-left: 26px;
 }
 
+.header .movenavebar .dropdown-item:focus {
+  background-color: #4d4d4d;
+}
+
+.header .movenavebar .dropdown-item:hover {
+  background-color: #4d4d4d;
+}
+
 @media only screen and (max-width: 992px) {
   .movenavebar {
     position: absolute;
@@ -126,16 +139,9 @@
   font-size: 16px;
 }
 
-.footer .social a {
-  border: 2px solid;
-  padding: 10px;
-  border-radius: 41px;
-  margin-right: 5px;
-  font-weight: bolder;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 49px;
+.footer .Enterprise {
+  font-size: 14px;
+  margin-top: 10px;
 }
 
 .footer .social a:hover {
@@ -144,9 +150,36 @@
           transform: scale(1.1);
 }
 
+.footer .social .fa {
+  margin-right: 11px;
+  font-size: 20px;
+}
+
 .footer h5 {
   opacity: 0.7;
   font-size: 16px;
+}
+
+.footer .topline {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footer .topline a {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-size: 14px;
+}
+
+.footer .topline li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.footer .topline .navbar-nav {
+  display: block;
 }
 
 .homegif {
@@ -873,5 +906,118 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.singe_indight img {
+  width: 100%;
+}
+
+.singe_indight p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.singe_indight button {
+  border-radius: 5px;
+  margin-left: 10px;
+  outline: none;
+  border: 0px;
+  padding: 6px 10px;
+}
+
+.singe_indight .yellobtn {
+  background: #F4D27A;
+}
+
+.singe_indight .greenbtn {
+  background: #88E5A2;
+}
+
+.chriniclesinnerpage .carde img {
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+.chriniclesinnerpage .carde h5 {
+  color: #183B56;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.chriniclesinnerpage .carde p {
+  text-align: justify;
+}
+
+.careersingle h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 32px;
+  -webkit-font-feature-settings: 'pnum' on, 'lnum' on;
+          font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #898282;
+}
+
+.careersingle h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.careersingle h2 {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  color: #333333;
+}
+
+.careersingle p {
+  text-align: justify;
+}
+
+.careersingle .backgray {
+  background: #F5F5F5;
+  padding: 40px;
+}
+
+.careersingle .backgray h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.careersingle .backgray h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #6F6F6F;
+}
+
+.careersingle .backgray button {
+  background-color: #000;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  padding: 10px 20px;
+}
+
+.careersingle .backgray .ceterincol-4 {
+  border-left: 1px dashed #CB4C22;
+  border-right: 1px dashed #CB4C22;
+}
+
+.careersingle .backgray .ceterincol-4 .inside {
+  margin-left: 50%;
+  -webkit-transform: translate(-50%, 0px);
+          transform: translate(-50%, 0px);
 }
 /*# sourceMappingURL=style.css.map */
