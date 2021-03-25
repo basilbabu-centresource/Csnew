@@ -12,7 +12,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.min.js"></script>
     <title>Home</title>
 </head>
 
@@ -22,7 +25,7 @@
             <div class="container">
                 <ul class="navbar-nav justify-content-end">
                     <li class="nav-item">
-                          <a aria-current="page" href="Knowus.html">Know Us</a>
+                        <a aria-current="page" href="Knowus.html">Know Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="Services.html">Services</a>
@@ -142,24 +145,26 @@
 
     </div>
     <section class="homegif">
-        <img src="./img/home.gif" alt="">
-        <h2>We think brand for trendsetting</h2>
+        <div class="content">
+            <img src="./img/home.gif" alt="">
+            <h2>We think brand for trendsetting</h2>
+        </div>
     </section>
-    <section class="mt-5 contentsection">
+    <section class="mt-5 contentsection ">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 mb-3">
+            <div class="row maybefirst">
+                <div class="col-md-5 mb-3 contentonly">
                     <h2 class="mb-2">Company Culture</h2>
                     <h1 class="mb-4">Where abilities know no bounds </h1>
                     <p class="mb-5">Headed by a young and vibrant team, Centre Source is a result oriented digital
                         marketing company
-                        based out of Kochi, Infopark that constantly strives to offer creative solutions to enhance the
+                        based out of Kochi, Itfopark that constantly strives to offer creative solutions to enhance the
                         reputation of your beloved brand. </p>
                     <a class="" href="">Know Us</a>
 
                 </div>
-                <div class="col-md-7 mb-3">
-                    <img src="./img/people.png" alt="">
+                <div class="col-md-7 mb-3 ">
+                    <img class="fmove" src="./img/people.png" alt="">
 
                 </div>
             </div>
