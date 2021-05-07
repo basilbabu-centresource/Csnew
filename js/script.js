@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .from(".bmove", 5, {
             autoAlpha: 0,
-            scale: 50,
+            scale: 3,
         })
       
 
